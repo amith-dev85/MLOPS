@@ -35,4 +35,4 @@ jobs:
 
       - name: Run ML script
         run: |
-          pylint iris_svm.py
+          python iris_svm.py
