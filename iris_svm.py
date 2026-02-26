@@ -46,7 +46,7 @@ print("\nClassification Report:\n")
 print(classification_report(y_test, y_pred))
 
 # Example new sample: [sepal length, sepal width, petal length, petal width]
-new_sample = [[5.1, 3.5, 1.4, 0.2]]
+new_sample = [[5, 3,3, 0.2]]
 
 prediction = model.predict(new_sample)
 
